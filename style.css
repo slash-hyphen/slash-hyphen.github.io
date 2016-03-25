@@ -25,6 +25,14 @@ section {
     position: relative;
 }
 
+.disclaimer {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    color: gray;
+    margin-left: 10px;
+    font-size:10px; 
+}
 .arrow {
     color: gray;
     position: absolute;
