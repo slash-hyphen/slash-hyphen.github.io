@@ -22,6 +22,16 @@ section {
 
 .headline {
     height: 90vh;
+    position: relative;
+}
+
+.arrow {
+    color: gray;
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
 }
 
 .statement {
@@ -71,8 +81,7 @@ section {
 }
 
 .service {
-    border: solid 2px;
-    border-color: black;
+    border-top: solid 6px #EB4D5C;
     padding: 10px;
     width:350px;
     display: table-cell;
@@ -93,7 +102,7 @@ section {
 
 @media only screen and (max-width: 1300px){
     .service-container h1 {
-        margin-left: 10px;
+        text-align: center;
     }
     .service-row {
         display: block;
@@ -103,6 +112,8 @@ section {
         margin-right: 10vw;
     }
     .service {
+        border-top: none;
+        border-left: solid 6px #EB4D5C;
         display: block;
         margin-top: 20px;
         width: 80vw;
