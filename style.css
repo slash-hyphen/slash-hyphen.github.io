@@ -45,14 +45,13 @@ section {
 .statement {
     margin-top: 20vh;
     margin-bottom: 20vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     max-width: 600px;
 }
 
 @media only screen and (min-width: 800px){
     .statement{
-        width:600px;
     }
 }
 
