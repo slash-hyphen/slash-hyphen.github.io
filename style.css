@@ -157,7 +157,7 @@ em {
     border: solid 2px;
     border-color: black;
     padding: 10px;
-    width:350px;
+    max-width:350px;
     margin-right: auto;
     margin-left: auto;
 }
